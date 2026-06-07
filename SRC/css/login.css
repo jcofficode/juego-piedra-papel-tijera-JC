@@ -1,0 +1,215 @@
+/* Titulo Sesion */
+h1{
+
+    background: -webkit-linear-gradient(#1B03A3, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img-login{
+    width: 18px;
+    height: 16px;
+    color: #fffbfb;
+}
+
+/* Encabezado de registro e inicio sesion*/
+.main-section {
+    
+    display: grid;
+    max-width: 350px;
+    /*background-color: #fff;*/
+    background: linear-gradient(to bottom, #1B03A3, #800080);
+    padding: 30px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    border-top: none;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0px auto 8px auto;
+    
+}
+
+.cuerpo-sesion{
+    margin: 0px auto 21px auto;
+}
+/*.formulario */
+
+.cuerpo-login{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    column-gap: 40px;
+}
+
+
+/* Primera seccion formulario Registro y sesion*/
+.img-section {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+   background-image: linear-gradient(to bottom, #fff 0%, #1B03A3 100%);
+   color: #fffbfb;
+  padding: 10px 30px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: auto;
+  gap: 15px;
+  margin: auto;
+  margin-top: 40px;
+  
+}
+
+.header-sesion{
+   width: 350px; 
+}
+
+
+.todo{
+    margin:auto;
+    padding: auto;
+   
+}
+
+.user-img{
+    display: grid;
+    grid-template-columns: 2.5fr 3fr;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    text-align: center;
+    width: 100%;
+    padding: 0px 0px 5px 0px;
+
+  
+}
+
+
+.texto-img {
+    display: grid;
+    margin: 0px 0px 0px 2px;
+    padding: 0px;
+    justify-content: center;
+    font-size: 32px;
+    text-shadow: 1px 0px 0px black;
+    color: white;
+    font-weight: bold;
+    width: auto;
+   
+    width: 90px;
+  
+
+}
+
+
+
+.user-img img {
+  
+    width: 36px;
+    height: 36px;
+    border-radius: 70%;
+    margin-left: 30%;
+  }
+
+.form-group {
+    margin-bottom: 0;
+    position: relative;
+     text-align: center;
+    align-items: center;
+    padding: auto;
+    
+}
+
+
+.botones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+}
+
+
+.form-group {
+    margin-bottom: 24px;
+    padding-right: 10px;
+}
+
+.form-group input {
+    padding: auto;
+}
+
+.form-group label {
+    display: grid;
+    margin-bottom: 6px;
+    font-weight: bold;
+    padding-left: 15px;
+    Font-size: 0.8rem;
+}
+
+.form-control::placeholder {
+    color: #242424;
+}
+
+.form-control:focus:required {
+    border-color: #02ffd0;
+    outline: 0 none;
+}
+
+.form-control:required:placeholder-shown {
+    border: 1px solid #8f8f8f;
+}
+
+.form-control:required:not(:placeholder-shown):invalid {
+    border: 1px solid red;
+    color: red;
+    box-shadow: 0 0 0 1px;
+}
+
+.form-control:required:not(:placeholder-shown):valid {
+    border: 1px solid #2fe678;
+    color: #2fe678;
+    box-shadow: 0 0 0 1px;
+}
+
+.form-control:required:focus:invalid {
+    border: 1px solid red;
+    color: red;
+    box-shadow: 0 0 0 1px;
+}
+
+.form-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+    pointer-events: none;
+    color: #fffbfb;
+}
+
+.btn-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+
+
+
+.forgot a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #6C757D;
+}
+
+.message {
+    display: none;
+}
+
+.valid {
+    color: rgb(87, 216, 87);
+    display: block;
+}

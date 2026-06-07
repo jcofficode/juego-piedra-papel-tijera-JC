@@ -1,0 +1,297 @@
+body{
+  background: linear-gradient(to top, #9387d4, rgb(74, 164, 224));
+}
+
+/* spacing */
+
+.contenedor{ 
+  margin-left: 1100px;
+  margin-bottom: 40px;
+}
+
+/* Contenido del juego */
+section, article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+/*Bienvenida*/
+.bienvenida{
+  font-family:'Krub', sans-serif;
+  background: linear-gradient(to bottom, #1B03A3, #800080);
+  font-size: 22px;
+  color: #fbfbfb;
+  border-radius: 4px;
+  border: 5px solid rgb(0, 255, 247);
+  width: 300px;
+}
+
+.bienvenida img {
+  height: 32px;
+}
+
+/*Tabla de Resultados*/
+table {
+    table-layout: fixed;
+    width: 95%;
+    text-align: center;
+    
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th,
+  td {
+    padding: 5px;
+  }
+
+  /*Botones del juego*/
+  button{
+    margin-right: 50px;
+    font-size: 80%;
+  }
+
+  #piedra{
+    
+    background: linear-gradient(to bottom, #1B03A3, #800080);
+    border-radius: 50%;
+    height: 80px;
+    width: 85px;
+    border: 2px solid rgb(0, 255, 247);
+
+  }
+
+  #piedra:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform .5s
+   }
+ 
+ #papel{
+  background: linear-gradient(to bottom, #1B03A3, #800080);
+  border-radius: 50%;
+  height: 90px;
+  width: 85px;
+  border: 2px solid rgb(0, 255, 247);
+  padding-top: 5px;
+ }
+
+ #papel:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform .5s
+ }
+
+#tijera{
+  background: linear-gradient(to bottom, #1B03A3, #800080);
+  border-radius: 50%;
+  height: 90px;
+  width: 115px;
+  border: 2px solid rgb(0, 255, 247);
+  padding-right: 5px;
+} 
+
+#tijera:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform .5s
+ }
+
+ #lagarto{
+  background: linear-gradient(to bottom, #1B03A3, #800080);
+  border-radius: 50%;
+  height: 80px;
+  width: 85px;
+  border: 2px solid rgb(0, 255, 247);
+  padding-right: 10px;
+  padding-top: 10px;
+} 
+
+#lagarto:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform .5s
+ }
+
+
+ #spock{
+  background: linear-gradient(to bottom, #1B03A3, #800080);
+  border-radius: 50%;
+  height: 85px;
+  width: 130px;
+  border: 2px solid rgb(0, 255, 247);
+  margin: 0 auto;
+  padding-left: 15px;
+} 
+
+#spock:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform .5s
+ }
+
+ h1{
+  text-align: center;
+ }
+
+ /*Cerrar sesion */
+ .cerrar{
+  
+  text-decoration: none;
+  
+  font-family:'Krub', sans-serif;
+  background: rgb(225, 5, 5);
+  font-size: 20px;
+  color: #fbfbfb;
+  border-radius: 4px;
+  border: 5px solid 	#FFDB58;
+  height: 33px;
+  border-radius: 18px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-left: 350px;
+  
+ }
+ .imprimirObjetos{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  table {
+    
+    width: 100%;
+  }
+  th, td {
+    width:300px;
+    text-align: center;
+    padding: 15px;
+  }
+ }
+
+
+
+.ganador{
+  
+  color: #49f311;
+ 
+  width: 250px;
+  height: 200px;
+  border-radius: 25%;
+}
+
+.espacial{
+  padding-top: 12%;
+}
+.perdedor{
+  color: rgb(248, 4, 4);
+  margin-left: 10%;
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+}
+.empate{
+  margin-top: 4%;
+  color: #FFDB58;
+  width: 250px;
+  height: 200px;
+  border-radius: 25%;
+}
+.cerrar img{
+  height: 32px;
+  padding-top: 5px;
+} 
+.cerrar:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform .5s
+}
+
+ a{
+  height: 100px;
+  
+ }
+
+/*Boton Ranking*/ 
+.ordenar {
+  display: flex;
+  font-family:'Krub', sans-serif;
+  background: rgb(225, 5, 5);
+  font-size: 20px;
+  color: #fbfbfb;
+  border-radius: 4px;
+  border: 5px solid 	#FFDB58;
+  align-items: center;
+  justify-content: center;
+  margin-left: 600px;
+  height: 52px;
+  border-radius: 18px;
+  text-decoration: none;
+}
+
+.ordenar img{
+  height: 35px;
+} 
+
+.ordenar:hover {
+transform: scale(1.1);
+  cursor: pointer;
+  transition: transform .5s
+}
+
+/* Boton Instrucciones*/
+.misInstrucciones{
+  position: absolute;
+  font-family:'Krub', sans-serif;
+  background: rgb(225, 5, 5);
+  font-size: 20px;
+  color: #fbfbfb;
+  border-radius: 4px;
+  height: 30px;
+  width: 10%;
+  border: 5px solid 	#FFDB58;
+  border-radius: 18px;
+  text-decoration: none;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.misInstrucciones:hover {
+  transform: scale(1.1);
+    cursor: pointer;
+    transition: transform .5s
+  }
+.form-inicio{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.botonVideo {
+ width:100%;
+  margin-left:-20%;
+ 
+}
+.mivideo{
+ margin:0 auto;
+ display: block;
+}
+.miencabezado{
+  margin:0 auto;
+ display: block;
+}
